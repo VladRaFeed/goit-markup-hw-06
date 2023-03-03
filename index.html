@@ -424,6 +424,24 @@
               </li>
             </ul>
           </div>
+          <form class="footer-form" autocomplete="on">
+            <label for="email" class="footer-form-label">Subscribe</label>
+            <div class="footer-form-wrapper">
+              <input
+                type="email"
+                class="footer-form-input"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+              />
+              <button type="submit" class="footer-submit">
+                Subscribe
+                <svg width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
@@ -435,6 +453,67 @@
             <use href="./images/symbol-defs.svg#icon-Vector"></use>
           </svg>
         </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="form" autocomplete="on">
+          <div class="form-group">
+            <div class="form-wrapper">
+              <label for="user-name" class="form-label-name">Name</label
+              ><input
+                type="text"
+                name="user-name"
+                id="user-name"
+                class="form-input"
+              />
+              <svg width="12" height="12" class="form-icons">
+                <use href="./images/symbol-defs.svg#icon-user"></use>
+              </svg>
+            </div>
+            <div class="form-wrapper">
+              <label for="user-phone" class="form-label">Phone</label
+              ><input
+                type="tel"
+                name="user-phone"
+                id="user-phone"
+                class="form-input"
+              />
+              <svg width="13" height="13" class="form-icons">
+                <use href="./images/symbol-defs.svg#icon-phone"></use>
+              </svg>
+            </div>
+            <div class="form-wrapper">
+              <label for="user-mail" class="form-label">Email</label
+              ><input
+                type="email"
+                name="user-mail"
+                id="user-mail"
+                class="form-input"
+              />
+              <svg width="15" height="12" class="form-icons">
+                <use href="./images/symbol-defs.svg#icon-email"></use>
+              </svg>
+            </div>
+            <div class="form-wrapper">
+              <label class="form-label">Comment</label
+              ><textarea
+                name="comment"
+                id="comment"
+                cols="10"
+                rows="1"
+                placeholder="Text input"
+                class="form-textarea"
+              ></textarea>
+            </div>
+          </div>
+          <div class="privasy-wrapper">
+            <label class="privacy-label">
+              <input type="checkbox" class="checkbox visually-hidden" />
+              <span class="privacy-icon"></span>
+              I accept the terms and conditions of the
+              <a href="#">Privacy Policy</a>
+            </label>
+          </div>
+          <button type="submit" class="send-button">Send</button>
+        </form>
       </div>
     </div>
 
